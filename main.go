@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/geaviation/goboot/web"
-	"github.com/geaviation/goboot/web/gorilla"
+	"github.com/gostones/goboot/web"
+	"github.com/gostones/goboot/web/gorilla"
 	"github.com/gorilla/mux"
 	"net/http"
 	"os"

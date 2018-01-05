@@ -43,7 +43,7 @@ https://golang.org/
 To run goboot-starter locally after you have installed Go:
 
 
-git clone https://github.com/geaviation/goboot-starter.git [my_project]
+git clone https://github.com/gostones/goboot-starter.git [my_project]
 
 cd [my_project]
 

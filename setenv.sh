@@ -60,7 +60,8 @@ fi
 
 #
 
-export APP_EXE=`basename $WORKSPACE`
+[ -z "$APP_EXE" ] && export APP_EXE=`basename $WORKSPACE`
+
 #
 echo ""
 echo "Go environment"

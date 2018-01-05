@@ -1,6 +1,6 @@
 ---
 applications:
-- name: ${APP_EXE}-${ENV}
+- name: ${APP_EXE}
   memory: 128M
   instances: 1
   command: /app/bin/${APP_EXE}
@@ -11,7 +11,7 @@ applications:
 #    - goboot-logstash
 #    - goboot-redis
   env:
-    GOVERSION: go1.7
+#    GOVERSION: go1.7
 #    uaa_url: $uaa_url
 #    uaa_client_id: $uaa_client_id
 #    uaa_client_secret: $uaa_client_secret
